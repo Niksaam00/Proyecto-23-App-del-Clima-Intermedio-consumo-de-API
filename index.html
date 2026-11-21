@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del clima</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Aplicación del clima</h1>
+
+        <form id="formulario">
+            <input type="text" id="ciudad" placeholder="Escribe una ciudad" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <p id="mensaje"></p>
+
+        <section id="actual"></section>
+
+        <h2>Últimas 24 horas</h2>
+        <section id="pasado" class="lista-horas"></section>
+
+        <h2>Próximas 24 horas</h2>
+        <section id="futuro" class="lista-horas"></section>
+
+        <button id="btn-refrescar" type="button">Actualizar clima</button>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
